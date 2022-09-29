@@ -1,0 +1,149 @@
+/* responsive */
+@media screen and (min-width: 768px) {
+
+    #introduce .h5 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;    
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.1px;
+    }
+
+    #introduce span:nth-child(2) {
+        width: 937px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 80px;
+    }
+
+    #introduce {
+        background-image: url(/assets/img/banner.svg);
+        background-repeat: no-repeat;
+        color: var(--light-color);
+        margin-top: 20px !important;
+    }
+
+    .text-color {
+        color: var(--light-color)!important;
+    }
+
+    .text-secondary-color {
+        color: #f7f7f7!important;
+    }
+
+    .appstore {
+        color: var(--light-color)!important;
+        border-color: var(--light-color)!important;
+    }
+
+    .text-start {
+        font-size: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+        letter-spacing: 0.1px;
+        opacity: 0.8;
+    }
+
+    #how-to-use {
+        margin-top: 100px;
+    }
+
+    #how-to-use div:nth-child(1), #how-to-use div:nth-child(3) {
+        margin: 0 200px 0 160px;
+        gap: 4rem;
+    }
+
+    #how-to-use section span:nth-child(1) {
+        margin: 0 0 0 0;
+    }
+    
+    #how-to-use section span:nth-child(2) {
+        margin: 17px 0 0 0;
+    }
+    
+    #how-to-use section span:nth-child(3) {
+        margin: 27px 0 0 0;
+    }
+    
+
+    #create-account, #explore, #checkout {
+        text-align: left!important;
+    }
+
+    #create-account {
+        padding-top: 160px;
+    }
+
+    #explore {
+        margin: 0 120px 0 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .explore-img {
+        margin-right: 150px;
+    }
+
+    #checkout {
+        padding-top: 250px;
+    }
+
+    .divider {
+        margin: 60px 20% 20px 20%;
+    }
+
+    #download {
+        background-image: url(/assets/img/footer-bg.svg);
+        padding: 120px 0 140px 0!important;
+    }
+
+    .download-button-try {
+        flex-grow: 0!important;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #social-media {
+        margin: 0;
+    }
+
+    .footer-logo {
+        width: 228px
+    }
+
+    .header-logo {
+        margin-left: 90px;
+        width: 196px;
+    }
+
+    #download {
+        margin-top: 100px
+    }
+
+    .download-button-try {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .download-button-try:after { 
+        content: "App store"
+    }
+
+    .download-button-buy:after { 
+        content: "Playstore"
+    }
+
+    #download span:nth-child(2):after {
+        content: "Available on your favorite store. Start your premium experience now"
+    }
+
+    .footer span:after {
+        content: "Copywright 2020 Bella Onojie.com"
+    }
+}
